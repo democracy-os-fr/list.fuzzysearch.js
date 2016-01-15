@@ -1,8 +1,8 @@
-var classes = require('classes'),
-    events = require('events'),
-    extend = require('extend'),
-    toString = require('to-string'),
-    getByClass = require('get-by-class');
+var classes = require('classes-component'),
+    events = require('democracyos-javve-events'),
+    extend = require('democracyos-extend'),
+    toString = require('democracyos-to-string'),
+    getByClass = require('democracyos-get-by-class');
 
 module.exports = function(options) {
     options = options || {};
